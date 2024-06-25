@@ -17,14 +17,14 @@ public LoginPageObject(WebDriver driver) {
 //	 xpath
 	
 
-	@FindBy(xpath="//*[@id=\"user-name\"]") 
+	@FindBy(xpath="//*[@id='user-name']") 
 	WebElement username;
 	
 
-	@FindBy(xpath="//*[@id=\"password\"]") 
+	@FindBy(xpath="//*[@id='password']") 
 	WebElement password;
 	
-	@FindBy(xpath="//*[@id=\"login-button\"]") 
+	@FindBy(xpath="//*[@id='login-button']") 
 	WebElement login_button;
 	
 	
