@@ -27,6 +27,9 @@ public LoginPageObject(WebDriver driver) {
 	@FindBy(xpath="//*[@id=\"login-button\"]") 
 	WebElement login_button;
 	
+	@FindBy(xpath="//*[@id=\"login-button\"]") 
+	WebElement login_button_test;
+	
 	
 
 // methods
