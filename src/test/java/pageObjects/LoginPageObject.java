@@ -25,7 +25,7 @@ public LoginPageObject(WebDriver driver) {
 	WebElement password;
 	
 	@FindBy(xpath="//*[@id='login-button']") 
-	WebElement login_button;
+	WebElement login_button_new;
 	
 	
 
@@ -44,7 +44,7 @@ public LoginPageObject(WebDriver driver) {
 	}
 	
 	public void click_on_loginbutton() {
-		login_button.click();
+		login_button_new.click();
 		
 		
 		
